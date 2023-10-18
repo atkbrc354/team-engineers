@@ -1,0 +1,477 @@
+.wrapper{
+    padding: 0 378px;
+}
+
+.background-intro{
+    background: url('../img/inrto-bg.png') no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    margin-top: 21px;
+}
+
+.header-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-icons-cards{
+    margin-top: 25px;
+    margin-right: 29px;
+}
+
+.social-icons-cards-mobile{
+    display: none;
+}
+
+.sotial-icons{
+    margin-right: 20px;
+}
+
+.sotial-icons:last-child{
+    margin-right: 0;
+}
+
+.burger-menu{
+    margin-top: 30px;
+}
+
+.header-block_nav{
+    display: flex;
+}
+
+.inrto-block{
+    display: flex;
+}
+
+.intro-list{
+    position: absolute;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    right: -187px
+}
+
+.active-ellipse{
+    margin-left: 72px;
+}
+
+.Ellipse{
+    padding-bottom: 20px;
+}
+
+.intro-title{
+    position: relative;
+    z-index: 3;
+    margin-top: 108px;
+    max-width: 780px;
+    font-size: 35.172px;
+    color: #FFF;
+    line-height: 140%;
+    font-family: Furore;
+    margin-bottom: 51px;
+}
+
+.intro-title span{
+    color: #EE562F;
+}
+
+.intro-desc{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    max-width: 744.104px;
+    font-family: Raleway;
+    color: #FFF;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 130%;
+    margin-bottom: 93px;
+}
+
+.intro-desc::before{
+    content: url('../img/icons/career.svg');
+    display: block;
+    margin-right: 30px;
+}
+.intro-btn_block{
+    position: relative;
+    z-index: 3;
+    display: flex;
+}
+
+.intro-btn{
+    background-color: #EE562F;
+    padding: 30px 75px;
+    color: #FFF;
+    font-family: Furore;
+    border: none;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    margin-bottom: 144px;
+}
+
+.intro-btn-desc{
+    display: flex;
+    max-width: 203px;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-family: Raleway;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 130%;
+    letter-spacing: 0.36px;
+}
+
+.intro-btn-desc::before{
+    display: block;
+    content: url('');
+    width: 2px;
+    height: 75px;
+    margin-right: 15px;
+    background: #EC6A49;
+}
+
+.intro-block-mobile{
+    display: none;
+}
+
+.intro-block-rigth{
+    display: flex;
+    position: relative;
+}
+
+
+.rigth-form{
+    display: flex;
+    position: absolute;
+    top: 239px;
+    left: 167px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: linear-gradient(133deg, rgba(255, 255, 255, 0.00) -8.04%, rgba(255, 255, 255, 0.15) 50.06%, rgba(255, 255, 255, 0.00) 92.45%), #353535;
+    border-radius: 15px;
+    width: 252px;
+    height: 154px;
+}
+
+.rigth-form-mobile{
+    display: none;
+}
+
+
+.rigth-form_name{
+    display: inline-flex;
+    width: 192px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 5px;
+    background: linear-gradient(226deg, rgba(255, 255, 255, 0.20) 0%, rgba(255, 255, 255, 0.00) 100%), #EE562F;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 120%;
+    font-family: Raleway;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.rigth-form_desc{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    opacity: 0.5;
+}
+
+.intro-list li{
+    display: flex;
+}
+
+.list-desc{
+    color: #FFF;
+    display: flex;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 140%;
+    margin-left: 24px;
+    font-family: Raleway;
+}
+
+.intro-businessman{
+    position: absolute;
+    top: -10px;
+    left: -617px;
+    z-index: 2;
+}
+
+.mouse{
+    position: absolute;
+    top: 407px;
+    z-index: 3;
+    right: -89px;
+
+}
+
+
+@media (max-width: 1840px){
+    .wrapper {
+        padding: 0px 218px;
+    }
+    .inrto-block{
+        flex-direction: column;
+    }
+
+    .background-intro{
+        width: 100%;
+        height: 1509px;
+    }
+    .intro-btn{
+        margin-bottom: 5px;
+    }
+    .intro-businessman{
+        left: -507px;
+    }
+    .rigth-form{
+        left: 285px;
+    }
+}
+
+@media (max-width: 1440px){
+    .wrapper {
+        padding: 0px 138px;
+    }
+    .intro-businessman{
+        left: -477px;
+    }
+    .rigth-form{
+        left: 312px;
+    }
+    .mouse{
+        right: -88px;
+    }
+
+}
+
+@media (max-width: 1280px){
+    .wrapper {
+        padding: 0px 80px;
+    }
+    .intro-businessman{
+        max-width: 1300px;
+    }
+    .background-intro{
+        height: 1499px;
+    }
+    .mouse{
+        top: 400px;
+    }
+}
+
+@media (max-width: 890px){
+    .intro-title{
+        margin-top: 75px;
+        font-size: 25.924px;
+        margin-bottom: 43px;
+    }
+    .intro-desc{
+        display: none;
+    }
+    .intro-btn_block{
+        display: none;
+    }
+    .intro-block-mobile{
+        display: block;
+        border-radius: 15px;
+        padding: 30px 25px 30px 25px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: linear-gradient(133deg, rgba(255, 255, 255, 0.00) -8.04%, rgba(255, 255, 255, 0.15) 50.06%, rgba(255, 255, 255, 0.00) 92.45%), #353535;
+    }
+
+    .intro-desc-mobile{
+        text-align: center;
+        color: #FFF;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 130%;
+        font-family: Raleway;
+        margin-bottom: 30px;
+    }
+
+    .intro-btn-mobile{
+        display: block;
+        margin: 0 auto;
+        color: #FFF;
+        font-size: 12px;
+        padding: 20px 53px 21px 52px;
+        background: linear-gradient(261deg, rgba(255, 255, 255, 0.15) -15.81%, rgba(255, 255, 255, 0.00) 114.52%), #EE562F;
+        line-height: 160%;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        border: none;
+        margin-bottom: 10px;
+    }
+
+    .intro-mobile-line{
+        width: 100%;
+        height: 2px;
+        background: #EC6A49;
+        margin-bottom: 10px;
+    }
+
+    .intro-btn-desc-mobile{
+        display: flex;
+        justify-content: center;
+        color: #FFF;
+        font-family: Raleway;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 130%;
+        letter-spacing: 0.28px;
+        opacity: 0.6;
+    }
+
+    .intro-businessman{
+        max-width: 1100px;
+        left: -349px;
+    }
+
+    .rigth-form{
+        top: 159px
+    }
+
+    .mouse{
+        top: 358px;
+    }
+
+    .background-intro{
+        height: 1196px;
+    }
+
+}
+
+@media (max-width: 781px){
+    .rigth-form {
+        top: 123px;
+        left: 224px;
+    }
+    .intro-list{
+        display: none;
+    }
+
+    .mouse{
+        display: none;
+    }
+
+    .intro-businessman{
+        max-width: 960px;
+    }
+
+    .background-intro {
+        height: 1148px;
+    }
+
+}
+
+
+@media (max-width: 750px){
+    .logo{
+        display: none;
+    }
+    .header-block_nav{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .intro-businessman {
+        max-width: 873px;
+    }
+    .rigth-form {
+        top: 110px;
+        left: 176px;
+    }
+}
+
+@media (max-width: 650px){
+    .intro-businessman{
+        max-width: 681px;
+        left: -253px;
+    }
+    .background-intro {
+        height: 1110px;
+    }
+    .rigth-form {
+        top: 67px;
+        left: 154px;
+    }
+}
+
+@media (max-width: 550px){
+    .social-icons-cards{
+        display: none;
+    }
+    .social-icons-cards-mobile{
+        margin-top: 27px;
+        display: flex;
+    }
+    .sotial-icons-mobile{
+        margin-left: 25px;
+    }
+
+    .rigth-form{
+        display: none;
+    }
+
+    .rigth-form-mobile{
+        position: absolute;
+        top: 76px;
+        right: -7px;
+        border-radius: 15px;
+        padding: 10px;
+        display: block;
+        max-width: 174px;
+        height: 103px;
+        border: 1px solid rgba(255, 255, 255, 0.10);
+        background: linear-gradient(133deg, rgba(255, 255, 255, 0.00) -8.04%, rgba(255, 255, 255, 0.15) 50.06%, rgba(255, 255, 255, 0.00) 92.45%), rgba(53, 53, 53, 0.80);
+        backdrop-filter: blur(10px);
+    }
+
+    .rigth-form_name-mobile{
+        color: #FFF;
+        font-family: Raleway;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 120%;
+        margin-bottom: 12px;
+    }
+
+    .rigth-form_desc-mobile{
+        color: #FFF;
+        opacity: 0.5;
+        text-align: center;
+        font-family: Raleway;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 140%;
+    }
+    .intro-businessman {
+        max-width: 618px;
+        left: -221px;
+    }
+    .background-intro {
+        height: 1102px;
+    }
+}
+
+
+
